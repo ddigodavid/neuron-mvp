@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "jsx": "preserve",
+    "strict": true,
+    "moduleResolution": "bundler",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.mts", "**/*.tsx", "**/*.js"],
+  "exclude": ["node_modules", "legacy", "cypress"]
+}
