@@ -1,6 +1,6 @@
 /*global chrome*/
 chrome.runtime.onInstalled.addListener(async () => {
-  setInterval(() => console.log("Ping"), 30000);
+  setInterval(() => console.log("Ping"), 25000);
   let db, eventSource;
   const request = indexedDB.open("NeuronOS", 1);
 
